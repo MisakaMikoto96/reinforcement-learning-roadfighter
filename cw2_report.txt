@@ -1,0 +1,21 @@
+#Read Me
+
+# rl_roadFighter
+Matlab code for the 2017/18 UEDIN course on Reinforcement Learning (http://www.inf.ed.ac.uk/teaching/courses/rl/index.html)
+
+INTRODUCTION
+-------------
+This code is the solution of Task 1 and its bonus. 
+
+
+GETTING STARTED:
+----------------
+
+In this function, there are 2 algorithm applied which I set the indicator like '0' for Monte Carlo algorithm, and '1' for TD-Learning algorithm. The argument of the function is Q_test(could be considered as given policy) and indicator of algorithm and the output we will got is the weight matrix.
+
+
+cw2_solution1.m:
+----------
+
+The file begins by initialization of the variables and other settings are similiar with the cw2_exercise1.m. The two algorithm are aimed at doing a gradient decent step on each sample and then updating the weight matrix to converge the return and q function.
+Begin to approximate the stateFeature vector to Q(s,a) using a first-visit Monte Carlo method goal and TD(0) Goal respectively. But the result seems hard to converge.
